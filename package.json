@@ -1,7 +1,8 @@
 {
   "name": "npmrc-switcher",
   "version": "1.0.0",
-  "description": "",
+  "preferGlobal": true,
+  "description": "cli tool for switch between different .npmrc files easily",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -15,5 +16,8 @@
     "mocha": "^7.0.0",
     "nyc": "^15.0.0",
     "sinon": "^8.0.4"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0"
   }
 }
